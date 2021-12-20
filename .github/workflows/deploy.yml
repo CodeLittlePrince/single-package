@@ -41,7 +41,7 @@ jobs:
           npm run lint
       - name: Unit test
         run: |
-          npm run test
+          npm run test:unit
       - name: End
         run: |
           echo End.
@@ -68,7 +68,7 @@ jobs:
           npm run lint
       - name: Unit test
         run: |
-          npm run test
+          npm run test:unit
       - name: End
         run: |
           echo End.
