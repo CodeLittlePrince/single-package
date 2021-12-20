@@ -7,7 +7,8 @@
     "prepare": "husky install",
     "lint": "lint-staged",
     "commitlint": "commitlint --edit \"$1\"",
-    "test:unit": "jest"
+    "test:unit": "jest",
+    "release": "np --no-publish"
   },
   "keywords": [],
   "author": "",
@@ -22,7 +23,8 @@
     "eslint-plugin-jest": "^25.3.0",
     "husky": "^7.0.4",
     "jest": "^27.4.5",
-    "lint-staged": "^12.1.3"
+    "lint-staged": "^12.1.3",
+    "np": "^7.6.0"
   },
   "config": {
     "commitizen": {
