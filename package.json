@@ -8,7 +8,7 @@
     "lint": "lint-staged",
     "commitlint": "commitlint --edit \"$1\"",
     "test:unit": "jest",
-    "release": "np --yolo --no-publish"
+    "release": "np --yolo"
   },
   "keywords": [],
   "author": "",
