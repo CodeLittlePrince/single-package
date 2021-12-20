@@ -7,7 +7,7 @@
     "prepare": "husky install",
     "lint": "lint-staged",
     "commitlint": "commitlint --edit \"$1\"",
-    "test:unit": "jest",
+    "test:unit": "jest test",
     "release": "np --yolo --no-2fa"
   },
   "files": [
