@@ -1,1 +1,1 @@
-exports.name = 'kitty!';
+exports.name = 'kitty';
