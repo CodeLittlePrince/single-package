@@ -8,8 +8,11 @@
     "lint": "lint-staged",
     "commitlint": "commitlint --edit \"$1\"",
     "test:unit": "jest",
-    "release": "np --yolo"
+    "release": "np --yolo --no-2fa"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -30,5 +33,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeLittlePrince/single-package.git"
   }
 }
